@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+
+body {
+    background: #FCFDFE;
+    color: #385466;
+    max-width: 920px;
+    margin: auto;
+}
+
+header,
+section > a {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+section {
+    font-family: 'PT Serif', serif;
+}
+
+hr {
+    height: 1px;
+    background: black;
+    width: 60%;
+    margin: auto;
+}
+
+header {
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 60px;
+    color: #385466;
+}
+
+section {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+section > a {
+    text-decoration: none;
+}
+
+section a h2 {
+    color: #385466;
+    font-size: 40px;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
